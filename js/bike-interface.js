@@ -1,7 +1,7 @@
 var Bike = require('./../js/bike.js').bikeModule;
 var displayOutput = function (location, outputData){
-  
-  $('#output').text("Here are the bikes that were stolen in " + location + outputData);
+
+  $('#output').append("Here are the bikes that were stolen in " + location + outputData + "<br>");
 };
 
 $(document).ready(function(){
